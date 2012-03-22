@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Web/app/models/post.rb&apos; to &apos;home.rb&apos;" description="Rename resource &apos;post.rb&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="app/models/post.rb" name="home.rb" stamp="1332406703461" updateReferences="true"/>
+</session>

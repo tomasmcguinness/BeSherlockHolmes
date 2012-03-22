@@ -1,0 +1,7 @@
+<h1>Become Sherlock Holmes</h1>
+<%= for(@post) do |f| %>
+	<p>
+		Create a new geo trigger
+	</p>
+	<button type="submit">Create Place</button>
+<%end%>

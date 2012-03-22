@@ -1,0 +1,23 @@
+class HomeController < ApplicationController
+    def new
+    @post = Home.new
+
+    respond_to do |format|
+      format.html  # index.html.erb
+      format.json  { render :json => @post }
+    end
+  end
+# def create
+#   @post = Post.new(params[:post])
+#
+# respond_to do |format|
+#    if @post.save
+#       format.html  { redirect_to(@post,
+#
+#                 :notice => 'Post was successfully created.') }
+#    format.json  { render :json => @post,
+#               :status => :created, :location => @post }
+#   end
+#  end
+
+end
