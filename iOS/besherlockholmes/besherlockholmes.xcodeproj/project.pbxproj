@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C35767C6151C70BB00FD3D9A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C35767C5151C70BB00FD3D9A /* CoreLocation.framework */; };
+		C35767C8151C70CC00FD3D9A /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C35767C7151C70CC00FD3D9A /* libsqlite3.dylib */; };
+		C39644FB151C6E4A0040ACE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39644FA151C6E4A0040ACE1 /* UIKit.framework */; };
+		C39644FD151C6E4A0040ACE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39644FC151C6E4A0040ACE1 /* Foundation.framework */; };
+		C39644FF151C6E4A0040ACE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39644FE151C6E4A0040ACE1 /* CoreGraphics.framework */; };
+		C3964501151C6E4A0040ACE1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3964500151C6E4A0040ACE1 /* CoreData.framework */; };
+		C3964507151C6E4A0040ACE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3964505151C6E4A0040ACE1 /* InfoPlist.strings */; };
+		C3964509151C6E4A0040ACE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3964508151C6E4A0040ACE1 /* main.m */; };
+		C396450D151C6E4A0040ACE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C396450C151C6E4A0040ACE1 /* AppDelegate.m */; };
+		C3964510151C6E4A0040ACE1 /* besherlockholmes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C396450E151C6E4A0040ACE1 /* besherlockholmes.xcdatamodeld */; };
+		C3964518151C6E4A0040ACE1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3964517151C6E4A0040ACE1 /* SenTestingKit.framework */; };
+		C3964519151C6E4A0040ACE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39644FA151C6E4A0040ACE1 /* UIKit.framework */; };
+		C396451A151C6E4A0040ACE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39644FC151C6E4A0040ACE1 /* Foundation.framework */; };
+		C396451B151C6E4A0040ACE1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3964500151C6E4A0040ACE1 /* CoreData.framework */; };
+		C3964523151C6E4A0040ACE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3964521151C6E4A0040ACE1 /* InfoPlist.strings */; };
+		C3964526151C6E4A0040ACE1 /* besherlockholmesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3964525151C6E4A0040ACE1 /* besherlockholmesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C396451C151C6E4A0040ACE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C39644ED151C6E490040ACE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C39644F5151C6E4A0040ACE1;
+			remoteInfo = besherlockholmes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C35767C0151C707700FD3D9A /* libGeoloqi-Debug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libGeoloqi-Debug.a"; sourceTree = "<group>"; };
+		C35767C1151C707700FD3D9A /* libGeoloqi-Release.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libGeoloqi-Release.a"; sourceTree = "<group>"; };
+		C35767C5151C70BB00FD3D9A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C35767C7151C70CC00FD3D9A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C35B6A88151C760300045464 /* LQConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LQConfig.h; sourceTree = "<group>"; };
+		C39644F6151C6E4A0040ACE1 /* besherlockholmes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = besherlockholmes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39644FA151C6E4A0040ACE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C39644FC151C6E4A0040ACE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C39644FE151C6E4A0040ACE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3964500151C6E4A0040ACE1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C3964504151C6E4A0040ACE1 /* besherlockholmes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "besherlockholmes-Info.plist"; sourceTree = "<group>"; };
+		C3964506151C6E4A0040ACE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3964508151C6E4A0040ACE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C396450A151C6E4A0040ACE1 /* besherlockholmes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "besherlockholmes-Prefix.pch"; sourceTree = "<group>"; };
+		C396450B151C6E4A0040ACE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C396450C151C6E4A0040ACE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C396450F151C6E4A0040ACE1 /* besherlockholmes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = besherlockholmes.xcdatamodel; sourceTree = "<group>"; };
+		C3964516151C6E4A0040ACE1 /* besherlockholmesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = besherlockholmesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3964517151C6E4A0040ACE1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C3964520151C6E4A0040ACE1 /* besherlockholmesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "besherlockholmesTests-Info.plist"; sourceTree = "<group>"; };
+		C3964522151C6E4A0040ACE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3964524151C6E4A0040ACE1 /* besherlockholmesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = besherlockholmesTests.h; sourceTree = "<group>"; };
+		C3964525151C6E4A0040ACE1 /* besherlockholmesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = besherlockholmesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C39644F3151C6E4A0040ACE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35767C8151C70CC00FD3D9A /* libsqlite3.dylib in Frameworks */,
+				C35767C6151C70BB00FD3D9A /* CoreLocation.framework in Frameworks */,
+				C39644FB151C6E4A0040ACE1 /* UIKit.framework in Frameworks */,
+				C39644FD151C6E4A0040ACE1 /* Foundation.framework in Frameworks */,
+				C39644FF151C6E4A0040ACE1 /* CoreGraphics.framework in Frameworks */,
+				C3964501151C6E4A0040ACE1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3964512151C6E4A0040ACE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3964518151C6E4A0040ACE1 /* SenTestingKit.framework in Frameworks */,
+				C3964519151C6E4A0040ACE1 /* UIKit.framework in Frameworks */,
+				C396451A151C6E4A0040ACE1 /* Foundation.framework in Frameworks */,
+				C396451B151C6E4A0040ACE1 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C39644EB151C6E490040ACE1 = {
+			isa = PBXGroup;
+			children = (
+				C35767C7151C70CC00FD3D9A /* libsqlite3.dylib */,
+				C35767C5151C70BB00FD3D9A /* CoreLocation.framework */,
+				C3964502151C6E4A0040ACE1 /* besherlockholmes */,
+				C396451E151C6E4A0040ACE1 /* besherlockholmesTests */,
+				C39644F9151C6E4A0040ACE1 /* Frameworks */,
+				C39644F7151C6E4A0040ACE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C39644F7151C6E4A0040ACE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C39644F6151C6E4A0040ACE1 /* besherlockholmes.app */,
+				C3964516151C6E4A0040ACE1 /* besherlockholmesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C39644F9151C6E4A0040ACE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C35767C0151C707700FD3D9A /* libGeoloqi-Debug.a */,
+				C35767C1151C707700FD3D9A /* libGeoloqi-Release.a */,
+				C39644FA151C6E4A0040ACE1 /* UIKit.framework */,
+				C39644FC151C6E4A0040ACE1 /* Foundation.framework */,
+				C39644FE151C6E4A0040ACE1 /* CoreGraphics.framework */,
+				C3964500151C6E4A0040ACE1 /* CoreData.framework */,
+				C3964517151C6E4A0040ACE1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3964502151C6E4A0040ACE1 /* besherlockholmes */ = {
+			isa = PBXGroup;
+			children = (
+				C35B6A88151C760300045464 /* LQConfig.h */,
+				C396450B151C6E4A0040ACE1 /* AppDelegate.h */,
+				C396450C151C6E4A0040ACE1 /* AppDelegate.m */,
+				C396450E151C6E4A0040ACE1 /* besherlockholmes.xcdatamodeld */,
+				C3964503151C6E4A0040ACE1 /* Supporting Files */,
+			);
+			path = besherlockholmes;
+			sourceTree = "<group>";
+		};
+		C3964503151C6E4A0040ACE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3964504151C6E4A0040ACE1 /* besherlockholmes-Info.plist */,
+				C3964505151C6E4A0040ACE1 /* InfoPlist.strings */,
+				C3964508151C6E4A0040ACE1 /* main.m */,
+				C396450A151C6E4A0040ACE1 /* besherlockholmes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C396451E151C6E4A0040ACE1 /* besherlockholmesTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3964524151C6E4A0040ACE1 /* besherlockholmesTests.h */,
+				C3964525151C6E4A0040ACE1 /* besherlockholmesTests.m */,
+				C396451F151C6E4A0040ACE1 /* Supporting Files */,
+			);
+			path = besherlockholmesTests;
+			sourceTree = "<group>";
+		};
+		C396451F151C6E4A0040ACE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3964520151C6E4A0040ACE1 /* besherlockholmesTests-Info.plist */,
+				C3964521151C6E4A0040ACE1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C39644F5151C6E4A0040ACE1 /* besherlockholmes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3964529151C6E4A0040ACE1 /* Build configuration list for PBXNativeTarget "besherlockholmes" */;
+			buildPhases = (
+				C39644F2151C6E4A0040ACE1 /* Sources */,
+				C39644F3151C6E4A0040ACE1 /* Frameworks */,
+				C39644F4151C6E4A0040ACE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = besherlockholmes;
+			productName = besherlockholmes;
+			productReference = C39644F6151C6E4A0040ACE1 /* besherlockholmes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3964515151C6E4A0040ACE1 /* besherlockholmesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C396452C151C6E4A0040ACE1 /* Build configuration list for PBXNativeTarget "besherlockholmesTests" */;
+			buildPhases = (
+				C3964511151C6E4A0040ACE1 /* Sources */,
+				C3964512151C6E4A0040ACE1 /* Frameworks */,
+				C3964513151C6E4A0040ACE1 /* Resources */,
+				C3964514151C6E4A0040ACE1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C396451D151C6E4A0040ACE1 /* PBXTargetDependency */,
+			);
+			name = besherlockholmesTests;
+			productName = besherlockholmesTests;
+			productReference = C3964516151C6E4A0040ACE1 /* besherlockholmesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C39644ED151C6E490040ACE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C39644F0151C6E490040ACE1 /* Build configuration list for PBXProject "besherlockholmes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C39644EB151C6E490040ACE1;
+			productRefGroup = C39644F7151C6E4A0040ACE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C39644F5151C6E4A0040ACE1 /* besherlockholmes */,
+				C3964515151C6E4A0040ACE1 /* besherlockholmesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C39644F4151C6E4A0040ACE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3964507151C6E4A0040ACE1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3964513151C6E4A0040ACE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3964523151C6E4A0040ACE1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3964514151C6E4A0040ACE1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C39644F2151C6E4A0040ACE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3964509151C6E4A0040ACE1 /* main.m in Sources */,
+				C396450D151C6E4A0040ACE1 /* AppDelegate.m in Sources */,
+				C3964510151C6E4A0040ACE1 /* besherlockholmes.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3964511151C6E4A0040ACE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3964526151C6E4A0040ACE1 /* besherlockholmesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C396451D151C6E4A0040ACE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C39644F5151C6E4A0040ACE1 /* besherlockholmes */;
+			targetProxy = C396451C151C6E4A0040ACE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3964505151C6E4A0040ACE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3964506151C6E4A0040ACE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3964521151C6E4A0040ACE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3964522151C6E4A0040ACE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3964527151C6E4A0040ACE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3964528151C6E4A0040ACE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C396452A151C6E4A0040ACE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "besherlockholmes/besherlockholmes-Prefix.pch";
+				INFOPLIST_FILE = "besherlockholmes/besherlockholmes-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/GeoloqiSDK\"",
+				);
+				OTHER_LDFLAGS = "-lGeoloqi-$(CONFIGURATION)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C396452B151C6E4A0040ACE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "besherlockholmes/besherlockholmes-Prefix.pch";
+				INFOPLIST_FILE = "besherlockholmes/besherlockholmes-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/GeoloqiSDK\"",
+				);
+				OTHER_LDFLAGS = "-lGeoloqi-$(CONFIGURATION)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C396452D151C6E4A0040ACE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/besherlockholmes.app/besherlockholmes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "besherlockholmes/besherlockholmes-Prefix.pch";
+				INFOPLIST_FILE = "besherlockholmesTests/besherlockholmesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C396452E151C6E4A0040ACE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/besherlockholmes.app/besherlockholmes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "besherlockholmes/besherlockholmes-Prefix.pch";
+				INFOPLIST_FILE = "besherlockholmesTests/besherlockholmesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C39644F0151C6E490040ACE1 /* Build configuration list for PBXProject "besherlockholmes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3964527151C6E4A0040ACE1 /* Debug */,
+				C3964528151C6E4A0040ACE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3964529151C6E4A0040ACE1 /* Build configuration list for PBXNativeTarget "besherlockholmes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C396452A151C6E4A0040ACE1 /* Debug */,
+				C396452B151C6E4A0040ACE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C396452C151C6E4A0040ACE1 /* Build configuration list for PBXNativeTarget "besherlockholmesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C396452D151C6E4A0040ACE1 /* Debug */,
+				C396452E151C6E4A0040ACE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C396450E151C6E4A0040ACE1 /* besherlockholmes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C396450F151C6E4A0040ACE1 /* besherlockholmes.xcdatamodel */,
+			);
+			currentVersion = C396450F151C6E4A0040ACE1 /* besherlockholmes.xcdatamodel */;
+			path = besherlockholmes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C39644ED151C6E490040ACE1 /* Project object */;
+}
